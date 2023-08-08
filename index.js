@@ -18,9 +18,7 @@ app.use('/posts', postRouter);
 app.use(commentRouter);
 
 
-app.get("/",(req,res)=>{
-    res.send("Home Page")
-})
+
 
 
 
